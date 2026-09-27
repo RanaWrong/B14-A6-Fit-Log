@@ -20,6 +20,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://fitlog-nine-jet.vercel.app"),
   title: "FitLog — Workout Library & Planner",
   description:
     "A dark, no-nonsense gym companion: pick a lift, lock it into today's plan, and watch the week's work add up.",
