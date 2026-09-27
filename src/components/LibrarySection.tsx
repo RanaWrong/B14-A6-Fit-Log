@@ -56,13 +56,25 @@ export default function LibrarySection({
       <div>
         {/* Controls: Search and Sort */}
         <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <input
-            type="text"
-            placeholder="Search workouts..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full rounded-lg border border-[#292c32] bg-[#15171c] px-4 py-3 text-sm text-white outline-none placeholder:text-gray-500 focus:border-[#baff00] sm:max-w-sm"
-          />
+          <div className="relative w-full sm:max-w-sm">
+            <input
+              type="text"
+              placeholder="Search workouts..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full rounded-lg border border-[#292c32] bg-[#15171c] px-4 py-3 pr-10 text-sm text-white outline-none placeholder:text-gray-500 focus:border-[#baff00]"
+            />
+            {searchQuery && (
+              <button
+                type="button"
+                onClick={() => setSearchQuery("")}
+                aria-label="Clear search"
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-gray-500 hover:text-white"
+              >
+                ✕
+              </button>
+            )}
+          </div>
 
           <div className="flex items-center gap-3">
             <label htmlFor="sort" className="text-sm text-gray-400">
