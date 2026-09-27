@@ -99,11 +99,16 @@ export default function MyPlanPage() {
         ) : currentList.length === 0 ? (
           /* Empty State */
           <div className="py-20 text-center">
-            <h2 className="text-2xl font-black uppercase text-white">
+            <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl border border-[#292c32] bg-[#15171c] text-3xl">
+              {activeTab === "plan" ? "📋" : "🔖"}
+            </div>
+            <h2 className="font-heading text-2xl font-black uppercase text-white">
               NOTHING HERE YET
             </h2>
             <p className="mx-auto mt-3 max-w-md text-sm text-gray-500">
-              Browse the library and add a lift to get today moving.
+              {activeTab === "plan"
+                ? "Browse the library and add a lift to get today moving."
+                : "No saved workouts yet. Save workouts to quickly access them later."}
             </p>
             <Link
               href="/#library"
