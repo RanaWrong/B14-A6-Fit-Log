@@ -5,7 +5,7 @@ A dark, no-nonsense gym companion and workout library web application built with
 ---
 
 ## 🌐 Links
-- **Live Demo:** [FitLog Live Application](https://fitlog-nine-jet.vercel.app/)
+- **Live Demo:** [FitLog Live Application](https://fit-log-two-pied.vercel.app/)
 - **GitHub Repository:** [https://github.com/RanaWrong/B14-A6-Fit-Log](https://github.com/RanaWrong/B14-A6-Fit-Log)
 
 ---
