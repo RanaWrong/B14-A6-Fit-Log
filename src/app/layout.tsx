@@ -4,6 +4,7 @@ import "./globals.css";
 import { FitLogProvider } from "@/context/FitLogContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const oswald = Oswald({
   subsets: ["latin"],
@@ -62,6 +63,7 @@ export default function RootLayout({
         <FitLogProvider>
           <Navbar />
           <div className="flex-1">{children}</div>
+          <ScrollToTop />
           <Footer />
         </FitLogProvider>
       </body>
