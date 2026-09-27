@@ -5,8 +5,8 @@ A dark, no-nonsense gym companion and workout library web application built with
 ---
 
 ## 🌐 Links
-- **Live Demo:** [FitLog Live Website](https://fitlog-nine-jet.vercel.app/)
-- **GitHub Repository:** [FitLog Repository](https://github.com/ProgrammingHero1/B14-A6-Fit-Log)
+- **Live Demo:** [FitLog Live Application](https://fitlog-nine-jet.vercel.app/)
+- **GitHub Repository:** [https://github.com/RanaWrong/B14-A6-Fit-Log](https://github.com/RanaWrong/B14-A6-Fit-Log)
 
 ---
 
@@ -65,7 +65,7 @@ A dark, no-nonsense gym companion and workout library web application built with
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ProgrammingHero1/B14-A6-Fit-Log.git
+   git clone https://github.com/RanaWrong/B14-A6-Fit-Log.git
    cd B14-A6-Fit-Log
    ```
 
