@@ -7,7 +7,7 @@ export default function Hero() {
             <p className="mb-5 text-[10px] font-bold tracking-[1.5px] text-[#baff00]">
               WORKOUT LIBRARY
             </p>
-            <h1 className="text-4xl font-black uppercase leading-[0.95] tracking-tight text-white sm:text-5xl md:text-6xl">
+            <h1 className="font-heading text-4xl font-black uppercase leading-[0.95] tracking-tight text-white sm:text-5xl md:text-6xl">
               TRAIN WITH INTENT. LOG
               <br />
               EVERY SET.
@@ -27,8 +27,8 @@ export default function Hero() {
 
           <div className="hidden shrink-0 md:block">
             <img
-              src="/workout.png"
-              alt="Workout illustration"
+              src="/banner.png"
+              alt="FitLog Workout Banner Illustration"
               className="h-[240px] w-[240px] object-contain lg:h-[280px] lg:w-[280px]"
             />
           </div>

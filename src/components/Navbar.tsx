@@ -17,9 +17,13 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b border-[#202228] bg-[#0b0c0e]">
       <div className="mx-auto flex h-[61px] max-w-[1200px] items-center justify-between px-5">
-        {/* Brand Logo */}
+        {/* Brand Logo with repo asset */}
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-xl text-[#baff00]">⚒</span>
+          <img
+            src="/logo.png"
+            alt="FitLog"
+            className="h-6 w-6 object-contain"
+          />
           <span className="text-[16px] font-extrabold tracking-wide text-white">
             FITLOG
           </span>
